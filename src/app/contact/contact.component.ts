@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-contact',
   template: `
-    <section class="hero is-primary is-bold">
+    <section class="hero is-primary is-medium">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">Contact Me</h1>
@@ -35,7 +35,10 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </section>
   `,
-  styles: [
+  styles: [`
+  .hero{
+    background-image: url("assets/img/background.jpeg") !important;
+  }`
   ]
 })
 export class ContactComponent implements OnInit {
