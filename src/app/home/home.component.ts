@@ -19,8 +19,13 @@ import { Component, OnInit } from '@angular/core';
         background-image: url("assets/img/sky.jpg") !important;
         baground-size: cover;
         background-position: center center;
-      ;
-      } 
+      }
+      .title {
+        font-family: 'Kaushan Script', sans-serif;
+        transform: rotate(-3deg);
+        font-size: 5rem;
+        color: whitesmoke;
+      }
   `]
 })
 export class HomeComponent implements OnInit {

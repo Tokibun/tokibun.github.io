@@ -5,7 +5,8 @@ import { Component, OnInit } from '@angular/core';
   template: `      
     <footer class="footer">
       <div class = "container content has-text-centered">
-        <p>Made by Michelle Kee</p>
+        <p class="subtitle">Michelle Kee</p>
+        <p>michelle.kee@mail.utoronto.ca</p>
         <nav class="tabs is-boxed is-fullwidth">
           <div class="container">
             <ul>

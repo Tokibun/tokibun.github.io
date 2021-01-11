@@ -21,7 +21,11 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </div>
   `,
-  styles: [
+  styles: [`
+      .container{
+        padding: 100px;
+      }
+  `
   ]
 })
 export class AboutComponent implements OnInit {
