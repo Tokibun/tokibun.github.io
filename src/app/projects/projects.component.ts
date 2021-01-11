@@ -16,6 +16,9 @@ import { Component, OnInit } from '@angular/core';
               <p>March 2020-Present</p>
               <p class="subtitle">This very page; A personal portfolio website made with Angular and Bulma. The older version of this page was made with pure HTML and CSS.</p>
             </div>
+            <footer class="card-footer">
+              <a href="https://github.com/Tokibun/Tokibun.github.io" class="button is-primary is-light" >Link to Project</a>
+            </footer>
           </div>
         </div>
         
@@ -24,9 +27,12 @@ import { Component, OnInit } from '@angular/core';
             <div class="card-content">
               <img src="assets/img/doodleJump.PNG">
               <p class="title">Doodle Jump</p>
-              <p>November - December 2020</p>
+              <p>November-December 2020</p>
               <p class="subtitle">A 2 player version of the game Doodle Jump made with MIPS Assembly.</p>
             </div>
+            <footer class="card-footer">
+              <a href="https://github.com/Tokibun/DoodleJump" class="button is-primary is-light" >Link to Project</a>
+            </footer>
           </div>
         </div>
 

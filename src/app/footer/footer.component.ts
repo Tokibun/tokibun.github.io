@@ -11,13 +11,20 @@ import { Component, OnInit } from '@angular/core';
           <div class="container">
             <ul>
               <li>
-                <a>LinkedIn</a>
+                <a href="https://github.com/Tokibun">
+                  <figure class="image is-48x48">
+                    <img src="assets/img/GitHub-Mark-64px.png">
+                  </figure>
+                </a>
               </li>
               <li>
-                <a>Github</a>
+                <a href="https://www.linkedin.com/in/mkee/">
+                <figure class="image is-48x48">
+                    <img src="assets/img/LI-In-Bug.png" >
+                </figure>
+                </a>
               </li>
-              <li>
-                <a>Email</a>
+              
             </ul>
           </div>
         </nav>

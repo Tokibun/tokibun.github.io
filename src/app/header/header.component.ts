@@ -23,7 +23,7 @@ import { Component, OnInit, ViewChild, ElementRef} from '@angular/core';
           <a class="navbar-item" routerLink="/about">About</a>
           <a class="navbar-item" routerLink="/resume">Resume</a>
           <a class="navbar-item" routerLink="/projects">Projects</a>
-          <a class="navbar-item" routerLink="/contact">Contact</a>
+<!--          <a class="navbar-item" routerLink="/contact">Contact</a>-->
         </div>
         <div class="navbar-end"></div>
       </div>
