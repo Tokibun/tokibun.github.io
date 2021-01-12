@@ -71,7 +71,7 @@ import { Component, OnInit } from '@angular/core';
     /*  padding: 10px;*/
     /*}*/
     .container{
-      padding: 100px;
+      padding: 50px;
     }
     .skills{
       background-color: #43485c;

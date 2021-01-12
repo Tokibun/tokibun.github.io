@@ -55,7 +55,7 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [`      
       .container{
-        padding: 100px;
+        padding: 50px;
       }
   `]
 })
