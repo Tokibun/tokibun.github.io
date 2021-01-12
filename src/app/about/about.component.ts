@@ -16,7 +16,7 @@ import { Component, OnInit } from '@angular/core';
           <p>Currently seeking a co-op opportunity for Summer 2021</p> 
         </div>
         <div class="column is-half ">
-          <img class="is-rounded" src="/assets/img/duck.jpeg"/>
+          <img class="is-rounded" src="/assets/img/michelle.jpg"/>
         </div>
       </div>
     </div>
@@ -24,6 +24,9 @@ import { Component, OnInit } from '@angular/core';
   styles: [`
       .container{
         padding: 100px;
+      }
+      .title{
+        padding:50px;
       }
   `
   ]

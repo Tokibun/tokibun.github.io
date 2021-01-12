@@ -39,6 +39,12 @@ import { Component, OnInit } from '@angular/core';
         <div class="column is-6">
           <div class="card">
             <div class="card-content">
+              <p class="title">Fanlinc</p>
+              <p>October-December 2019</p>
+              <p class="subtitle">Platform for people in different Fandoms to discuss about it, and plan events. Created using React, 
+              TypeScript, Spring, MondgoDB. Worked in a team of 5, and worked on front-end and back-end components.</p>
+            </div>
+            <div class="card-footer">
               
             </div>
           </div>

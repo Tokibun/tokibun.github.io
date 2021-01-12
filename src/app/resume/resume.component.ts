@@ -15,7 +15,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="column is-4 has-text-centered">
             Frameworks
             <hr/>
-            <h2>Angular, React, Bulma</h2>
+            <h2>Angular, React, Spring, Bulma</h2>
         </div>
         <div class="column is-4 has-text-centered">
           Database
@@ -56,9 +56,7 @@ import { Component, OnInit } from '@angular/core';
             <!--              Optional text for future if needed-->
           </h2>
           <form action="example.docs">
-            <button class="button">
-              Coming Soon
-            </button>
+            <a href="assets/file/ResumeJan11.pdf" download="MichelleKee.Resume.pdf" class="button">Download</a>
           </form>
         </div>
       </div>
