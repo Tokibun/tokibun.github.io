@@ -26,7 +26,7 @@ import { Component, OnInit } from '@angular/core';
         padding: 100px;
       }
       .title{
-        padding:50px;
+        padding-bottom:50px;
       }
   `
   ]
