@@ -56,7 +56,7 @@ import { Component, OnInit } from '@angular/core';
             <!--              Optional text for future if needed-->
           </h2>
           <form action="example.docs">
-            <a href="assets/file/ResumeJan11.pdf" download="MichelleKee.Resume.pdf" class="button">Download</a>
+            <a href="assets/file/ResumeJan15.pdf" download="MichelleKee.Resume.pdf" class="button">Download</a>
           </form>
         </div>
       </div>
