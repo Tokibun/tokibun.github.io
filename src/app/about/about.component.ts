@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-about',
   template: `
+      <div class="about">
     <div class="container">
       <div class="column-is-12">
         <h1 class="title has-text-centered section-title">About Me</h1>
@@ -11,22 +12,29 @@ import { Component, OnInit } from '@angular/core';
         <div class="column is-half has-vertically-aligned-content">
           <p class="is-larger"><strong>Hey there, I'm Michelle</strong></p>
           <br/>
-          <p>I am currently a 3rd year student at the University of Toronto. I enjoy learning new technologies and tools to create a variety of programs.</p>
+          <p>I am currently a 4th year student at the University of Toronto. I enjoy learning new technologies and tools to create a variety of programs.</p>
           <br/>
-          <p>Currently seeking a co-op opportunity for Summer 2021</p> 
+          <p>Seeking for co-op opportunities for Fall 2021/Winter 2022</p> 
         </div>
         <div class="column is-half ">
-          <img class="is-rounded" src="/assets/img/michelle.jpg"/>
+          <img class="is-rounded" src="/assets/img/michelle2.JPG"/>
         </div>
       </div>
     </div>
+      </div>
   `,
   styles: [`
       .container{
         padding: 50px;
+          
       }
       .title{
         padding-bottom:50px;
+      }
+      
+      .about {
+          background-color: #FFF5FD;
+          height: 85vh;
       }
   `
   ]

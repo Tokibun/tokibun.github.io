@@ -29,7 +29,13 @@ import { Component, OnInit, ViewChild, ElementRef} from '@angular/core';
       </div>
     </nav>
   `,
-  styles: [
+  styles: [`
+      .navbar{
+          background-color: #FFF5FD;
+          height: 5vh;
+      }
+  
+  `
   ]
 })
 
