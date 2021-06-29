@@ -3,18 +3,19 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
-    <div class ="main-page">
-        <h1 class = "title">hey,</h1>
-        <h1 class = "title">i'm <span class="my-name">michelle kee</span>!</h1>
-        <h1></h1>
-        <h1 class = "subtitle"><i class="fas fa-terminal"></i> developer</h1>
+    <div class = "main-page">
+            <h1 class = "title">hey,</h1>
+            <h1 class = "title">i'm <span class="my-name">michelle kee</span>!</h1>
+            <h1></h1>
+            <h1 class = "subtitle"><i class="fas fa-terminal"></i> developer</h1>
     </div>
   `,
   styles: [`
       .main-page {
-          padding: 5%;
+          padding: 5vh;
+          padding-bottom: 55vh;
           background-color: #FFF5FD;
-          height: 85vh;
+          /*height: 85vh;*/
       }
       .title {
         font-family: 'Kaushan Script', sans-serif;

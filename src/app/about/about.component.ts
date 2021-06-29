@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
         <h1 class="title has-text-centered section-title">About Me</h1>
       </div>
       <div class="columns is-multiline ">
+          
         <div class="column is-half has-vertically-aligned-content">
           <p class="is-larger"><strong>I'm Michelle</strong></p>
           <br/>
@@ -16,17 +17,21 @@ import { Component, OnInit } from '@angular/core';
           <br/>
           <p>Seeking for co-op opportunities for Fall 2021/Winter 2022</p> 
         </div>
+          
         <div class="column is-half ">
           <img class="michelle is-rounded" src="/assets/img/michelle2.JPG"/>
         </div>
+          
       </div>
     </div>
       </div>
+      
+
   `,
   styles: [`
       .michelle{
-          width: 40vh;
-          height: 40vh;
+          max-width: 40vh;
+          max-height: 40vh;
       }
       .container{
         padding: 50px;
@@ -38,7 +43,7 @@ import { Component, OnInit } from '@angular/core';
       
       .about {
           background-color: #FFF5FD;
-          height: 85vh;
+          /*height: 85vh;*/
       }
   `
   ]
