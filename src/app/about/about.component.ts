@@ -10,20 +10,24 @@ import { Component, OnInit } from '@angular/core';
       </div>
       <div class="columns is-multiline ">
         <div class="column is-half has-vertically-aligned-content">
-          <p class="is-larger"><strong>Hey there, I'm Michelle</strong></p>
+          <p class="is-larger"><strong>I'm Michelle</strong></p>
           <br/>
           <p>I am currently a 4th year student at the University of Toronto. I enjoy learning new technologies and tools to create a variety of programs.</p>
           <br/>
           <p>Seeking for co-op opportunities for Fall 2021/Winter 2022</p> 
         </div>
         <div class="column is-half ">
-          <img class="is-rounded" src="/assets/img/michelle2.JPG"/>
+          <img class="michelle is-rounded" src="/assets/img/michelle2.JPG"/>
         </div>
       </div>
     </div>
       </div>
   `,
   styles: [`
+      .michelle{
+          width: 40vh;
+          height: 40vh;
+      }
       .container{
         padding: 50px;
           

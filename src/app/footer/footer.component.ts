@@ -44,7 +44,7 @@ import { Component, OnInit } from '@angular/core';
       
       .icon {
           color: inherit;
-          padding: 2%;
+          padding: 20px;
       }
   `
   ]
