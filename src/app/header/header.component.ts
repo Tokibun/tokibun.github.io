@@ -21,7 +21,7 @@ import { Component, OnInit, ViewChild, ElementRef} from '@angular/core';
       <div id="navbarExampleTransparentExample" class="navbar-menu" #navMenu >
         <div class="navbar-start">
           <a class="navbar-item" routerLink="/about">About</a>
-          <a class="navbar-item" routerLink="/resume">Resume</a>
+<!--          <a class="navbar-item" routerLink="/resume">Resume</a>-->
           <a class="navbar-item" routerLink="/projects">Projects</a>
 <!--          <a class="navbar-item" routerLink="/contact">Contact</a>-->
         </div>
