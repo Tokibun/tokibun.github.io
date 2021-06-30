@@ -13,22 +13,17 @@ import { Component, OnInit } from '@angular/core';
                   <div class="column is-half has-vertically-aligned-content">
                       <p class=" intro-title">I'm Michelle</p>
                       <br/>
-                      <p class="intro">I am a 4th year CS student at the <a class="highlight" href="https://www.utsc.utoronto.ca/home/"><i
-                              class="fas fa-graduation-cap"></i> University of Toronto</a>.
+                      <p class="intro">I am a 4th year CS student at the 
+                          <a class="highlight" href="https://www.utsc.utoronto.ca/home/">
+                              <i class="fas fa-graduation-cap"></i> 
+                              University of Toronto
+                          </a>.
                           I aim to develop tools and software that can make people happy.</p>
                       <br/>
 
                       <p class="intro">I've previously worked as:</p>
                       <ul class="intro fa-ul">
-                          <li>
-                                <span class="fa-li">
-                                <i class="fas fa-briefcase highlight"></i>
-                                </span>
-                              Application Developer @ <a class="intro" href="https://www.cibc.com/en/personal-banking.html">CIBC</a>
-                              <br/>
-                              <div class="smaller">Jan - June 2020</div>
-                          </li>
-
+                          
                           <li>
                                 <span class="fa-li">
                                 <i class="fas fa-briefcase highlight"></i>
@@ -37,7 +32,16 @@ import { Component, OnInit } from '@angular/core';
                               <br/>
                               <div class="smaller">May - Aug 2021</div>
                           </li>
-
+                          
+                          <li>
+                                <span class="fa-li">
+                                <i class="fas fa-briefcase highlight"></i>
+                                </span>
+                              Application Developer @ <a class="intro" href="https://www.cibc.com/en/personal-banking.html">CIBC</a>
+                              <br/>
+                              <div class="smaller">Jan - June 2020</div>
+                          </li>
+                          
                           <li>
                                 <span class="fa-li">
                                 <i class="fas fa-hands-helping highlight"></i>
