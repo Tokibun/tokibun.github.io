@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import Typed from "typed.js";
 
-@Component({
+@Component ({
   selector: 'app-home',
   template: `
     <div class = "main-page">
             <h1 class = "title">hey,</h1>
             <h1 class = "title">i'm <span class="my-name">michelle kee</span>!</h1>
             <h1></h1>
-            <h1 class = "subtitle"><i class="fas fa-terminal"></i> developer</h1>
+            <h1 class = "subtitle"><i class="fas fa-terminal"></i>&ensp;a 
+                <span id="typed-element"></span></h1>
     </div>
   `,
   styles: [`
@@ -39,7 +41,18 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+      const options = {
+          strings: ['developer', 'musician', 'student', 'gamer'],
+          typeSpeed: 50,
+          backSpeed: 20,
+          backDelay: 2000,
+          showCursor: true,
+          cursorChar: '|',
+          loop: true
+      };
+
+      const typed = new Typed('#typed-element', options);
   }
 
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-about',
   template: `
@@ -16,8 +17,7 @@ import { Component, OnInit } from '@angular/core';
                       <p class="intro">I am a 4th year CS student at the 
                           <a class="highlight" href="https://www.utsc.utoronto.ca/home/">
                               <i class="fas fa-graduation-cap"></i> 
-                              University of Toronto
-                          </a>.
+                              University of Toronto</a>.
                           I aim to develop tools and software that can make people happy.</p>
                       <br/>
 
