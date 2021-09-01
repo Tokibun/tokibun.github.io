@@ -3,7 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-projects',
   template: `
-    <div class="container">
+     
+    <div class="container"> 
+        
+        
+        <ul *ngFor="let p of projects">
+            <project-component [project]='p'></project-component>
+        </ul>
+        
       <div class = "columns is-multiline">
         <div class="column is-12">
           <h2 class="title has-text-centered">My Work</h2>
@@ -105,7 +112,30 @@ import { Component, OnInit } from '@angular/core';
   `]
 })
 export class ProjectsComponent implements OnInit {
-
+    //Projects data here
+    projects = [
+        {
+            name: 'tokibun.github.io',
+            time:'March 2020-Present',
+            details:'This very page; A personal portfolio website made with Angular and Bulma. The older version of this page was made with pure HTML and CSS.',
+            tech: "(Angular, Bulma, HTML, CSS)",
+            img: "assets/img/rabbit.png",
+            link: "https://github.com/Tokibun/Tokibun.github.io"},
+        {
+            name: 'test',
+            time:'March 2020-Present',
+            details:'This very page; A personal portfolio website made with Angular and Bulma. The older version of this page was made with pure HTML and CSS.',
+            tech: "(Angular, Bulma, HTML, CSS)",
+            img: "",
+            link: "https://github.com/Tokibun/Tokibun.github.io"},
+        {
+            name: 'tokibun.github.io',
+            time:'March 2020-Present',
+            details:'This very page; A personal portfolio website made with Angular and Bulma. The older version of this page was made with pure HTML and CSS.',
+            tech: "(Angular, Bulma, HTML, CSS)",
+            img: "",
+            link: ""},
+    ];
   constructor() { }
 
   ngOnInit(): void {
