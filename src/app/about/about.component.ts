@@ -65,7 +65,7 @@ import { Component, OnInit } from '@angular/core';
                       <br />
                       <p class="intro">Seeking co-op opportunities for Fall 2021/Winter 2022</p>
                       <br/>
-                      <a href="assets/file/ResumeJune13.pdf" download="MichelleKee.Resume.pdf" class="intro"><i class="fas fa-download highlight"></i> Download my resume!</a>
+                      <a href="assets/file/ResumeSept29.pdf" download="MichelleKee.Resume.pdf" class="intro"><i class="fas fa-download highlight"></i> Download my resume!</a>
 
 
                   </div>

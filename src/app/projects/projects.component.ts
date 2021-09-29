@@ -39,6 +39,13 @@ export class ProjectsComponent implements OnInit {
     //Projects data here
     projects = [
         {
+            name: 'Interwined',
+            time:'Sept 2021-Present',
+            details:'A single player puzzle game about a boy and a dog with separation anxiety and has to make their way back home. Development is in progress, stay tuned!!',
+            tech: "(C#, Unity)",
+            img: "assets/img/intertwined.JPG",
+            link: "https://meshflakes.itch.io/intertwined?secret=xwWHtlkBDyzQjYHg0t5AUX7zTow "},
+        {
             name: 'PintOS',
             time:'January-April 2021',
             details:'Worked in a team of 3 to implement kernel threads, user programs, virtual memory, and file systems support to the open-source operating system PintOS.',
