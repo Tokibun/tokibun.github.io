@@ -18,15 +18,35 @@ import {Component, OnInit} from '@angular/core';
                             <a class="highlight" href="https://www.utsc.utoronto.ca/home/">
                                 <i class="fas fa-graduation-cap"></i>
                                 University of Toronto</a>.
-                            I aim to develop tools and software that can make people happy.
+                            I aim to develop tools and software that can improve quality of life.
                             <br/>
-                            I am currently working as a <a class="highlight" href="https://www.hootsuite.com/">
-                                <i class="fas fa-briefcase highlight"></i> Software Developer @ Hootsuite</a>.
+<!--                            I am currently working as a <a class="highlight" href="https://www.hootsuite.com/">-->
+<!--                                <i class="fas fa-briefcase highlight"></i> Software Developer @ Hootsuite</a>.-->
                         </p>
                         <br/>
 
                         <p class="intro">I've previously worked as:</p>
                         <ul class="intro fa-ul">
+
+                            <li>
+                                <span class="fa-li">
+                                <i class="fas fa-briefcase highlight"></i>
+                                </span>
+                                Teaching Assistant @ <a class="intro"
+                                                        href="https://www.utoronto.ca/">University of Toronto</a>
+                                <br/>
+                                <div class="smaller">Sep - Dec 2022</div>
+                            </li>
+
+                            <li>
+                                <span class="fa-li">
+                                <i class="fas fa-briefcase highlight"></i>
+                                </span>
+                                Software Developer @ <a class="intro"
+                                                        href="https://www.hootsuite.com/en-gb">Hootsuite</a>
+                                <br/>
+                                <div class="smaller">Jan - Sep 2022</div>
+                            </li>
 
                             <li>
                                 <span class="fa-li">
@@ -69,7 +89,7 @@ import {Component, OnInit} from '@angular/core';
 
                         </ul>
                         <br/>
-                        <p class="intro">Seeking co-op opportunities for Fall 2022</p>
+                        <p class="intro">I am graduating in April 2023 and am seeking full-time opportunities.</p>
                         <br/>
                         <a href="assets/file/ResumeSept29.pdf" download="MichelleKee.Resume.pdf" class="intro"><i
                                 class="fas fa-download highlight"></i> Download my resume!</a>

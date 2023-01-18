@@ -39,6 +39,13 @@ export class ProjectsComponent implements OnInit {
     //Projects data here
     projects = [
         {
+            name: 'Federal political info chatbot',
+            time:'Nov 2022-Dec2022',
+            details:'Worked in a team of 3 to create a chatbot that can answer basic questions related to federal political information. ',
+            tech: "Python, Javascript, ElectronJS",
+            img: "assets/img/CanadaFederalBot.PNG",
+            link: "https://github.com/winnllam/CSCD58-project"},
+        {
             name: 'Interwined',
             time:'Sept 2021-Present',
             details:'Worked in a large team with art and music students to create a single player puzzle game about a boy and a dog with separation anxiety who has to make their way back home.',
