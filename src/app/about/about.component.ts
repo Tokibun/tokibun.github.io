@@ -14,10 +14,10 @@ import {Component, OnInit} from '@angular/core';
                     <div class="column is-half has-vertically-aligned-content">
                         <p class=" intro-title">I'm Michelle</p>
                         <br/>
-                        <p class="intro">I am a 4th year CS student at the
+                        <p class="intro">I have graduated from the
                             <a class="highlight" href="https://www.utsc.utoronto.ca/home/">
                                 <i class="fas fa-graduation-cap"></i>
-                                University of Toronto</a>.
+                                University of Toronto</a> with HBSc in Computer Science.
                             I aim to develop tools and software that can improve quality of life.
                             <br/>
 <!--                            I am currently working as a <a class="highlight" href="https://www.hootsuite.com/">-->
@@ -35,7 +35,7 @@ import {Component, OnInit} from '@angular/core';
                                 Teaching Assistant @ <a class="intro"
                                                         href="https://www.utoronto.ca/">University of Toronto</a>
                                 <br/>
-                                <div class="smaller">Sep - Dec 2022</div>
+                                <div class="smaller">Sept 2022 - Dec 2022</div>
                             </li>
 
                             <li>
@@ -45,7 +45,7 @@ import {Component, OnInit} from '@angular/core';
                                 Software Developer @ <a class="intro"
                                                         href="https://www.hootsuite.com/en-gb">Hootsuite</a>
                                 <br/>
-                                <div class="smaller">Jan - Sep 2022</div>
+                                <div class="smaller">Jan 2022 - Sep 2022</div>
                             </li>
 
                             <li>
@@ -55,7 +55,7 @@ import {Component, OnInit} from '@angular/core';
                                 Software Developer @ <a class="intro"
                                                         href="https://www.cibc.com/en/personal-banking.html">CIBC</a>
                                 <br/>
-                                <div class="smaller">May - Aug 2021</div>
+                                <div class="smaller">May 2021 - Aug 2021</div>
                             </li>
 
                             <li>
@@ -65,7 +65,7 @@ import {Component, OnInit} from '@angular/core';
                                 Application Developer @ <a class="intro"
                                                            href="https://www.cibc.com/en/personal-banking.html">CIBC</a>
                                 <br/>
-                                <div class="smaller">Jan - June 2020</div>
+                                <div class="smaller">Jan 2020 - June 2020</div>
                             </li>
 
                             <li>
@@ -83,13 +83,13 @@ import {Component, OnInit} from '@angular/core';
                                 </span>
                                 Mentor @ <a class="intro" href="https://linktr.ee/wicsm.utsc">WiCSM</a>
                                 <br/>
-                                <div class="smaller">Sep 2020 - Apr 2021</div>
+                                <div class="smaller">Sept 2020 - Apr 2021</div>
                             </li>
 
 
                         </ul>
                         <br/>
-                        <p class="intro">I am graduating in April 2023 and am seeking full-time opportunities.</p>
+                        <p class="intro">I am currently seeking full-time opportunities.</p>
                         <br/>
                         <a href="assets/file/ResumeSept29.pdf" download="MichelleKee.Resume.pdf" class="intro"><i
                                 class="fas fa-download highlight"></i> Download my resume!</a>
