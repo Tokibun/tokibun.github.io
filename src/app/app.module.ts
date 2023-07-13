@@ -7,13 +7,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { ResumeComponent } from './resume/resume.component';
 import { AboutComponent } from './about/about.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import {ProjectComponent} from "./projects/project/project";
+import {ProjectDetailComponent} from "./projects/project-detail.component";
 
 @NgModule({
   declarations: [
@@ -21,11 +19,9 @@ import {ProjectComponent} from "./projects/project/project";
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ContactComponent,
     ProjectsComponent,
-    ResumeComponent,
     AboutComponent,
-    ProjectComponent
+    ProjectDetailComponent
   ],
   imports: [
     BrowserModule,

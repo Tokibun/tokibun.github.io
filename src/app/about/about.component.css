@@ -1,0 +1,44 @@
+ul {
+    margin-left: 40px;
+}
+
+.intro-title {
+    color: #022E57;
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 3rem;
+}
+
+.intro {
+    color: #005A8D;
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.michelle {
+    max-width: 40vh;
+    max-height: 40vh
+}
+
+.container {
+    padding: 50px;
+
+}
+
+.title {
+    padding-bottom: 50px;
+}
+
+.about {
+    background-color: #FFF5FD;
+    padding-bottom: 25vh;
+    /*height: 85vh;*/
+}
+
+.highlight {
+    color: #fd6a89;
+}
+
+.smaller {
+    font-size: 1rem;
+}

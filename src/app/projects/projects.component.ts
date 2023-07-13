@@ -2,38 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-projects',
-  template: `
-     
-    <div class="container">
-      <div class = "columns is-multiline">
-        <div class="column is-12">
-          <h2 class="title has-text-centered">My Work</h2>
-        </div>
-          <div class="column is-4" *ngFor="let p of projects">
-              <project-component [project]='p'></project-component>
-          </div>
-          
-      </div>
-      
-    </div>
-  `,
-  styles: [`
-
-      .container{
-        padding: 50px;
-      }
-      
-      img{
-          height: 10vh;
-          width: 10vh;
-      }
-      
-      
-      .title{
-          color: #022E57 ;
-      }
-      
-  `]
+  templateUrl: 'projects.component.html',
+  styleUrls: ['projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
     //Projects data here
