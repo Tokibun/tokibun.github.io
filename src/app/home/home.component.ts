@@ -1,26 +1,21 @@
-import { Component, OnInit } from '@angular/core';
-import Typed from "typed.js";
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
-@Component ({
+@Component({
   selector: 'app-home',
-  templateUrl: 'home.component.html',
-  styleUrls: ['home.component.css']
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
+  firstName = "M I C H E L L E";
+  lastName = "K E E";
+  scrollContent = "developer · gamer · musician";
 
-  constructor() { }
+  constructor(private router: Router) {
 
-  ngOnInit() {
-      const options = {
-          strings: ['developer', 'musician', 'student', 'gamer'],
-          typeSpeed: 50,
-          backSpeed: 20,
-          backDelay: 2000,
-          showCursor: true,
-          cursorChar: '|',
-          loop: true
-      };
-      const typed = new Typed('#typed-element', options);
   }
 
+  onClick(): void {
+    this.router.navigate(["/menu"]);
+  }
 }

@@ -1,22 +1,35 @@
-.main-page {
-    padding: 5vh;
-    padding-bottom: 55vh;
-    background-color: #FFF5FD;
-    /*height: 85vh;*/
-}
-.title {
-    font-family: 'Kaushan Script', sans-serif;
-    /*transform: rotate(-3deg);*/
-    font-size: 4rem;
-    color: #022E57;
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 21.5vh;
+    padding-bottom: 2.83vh;
+    font-family: Kodchasan;
 }
 
-.subtitle {
-    font-family: 'Kaushan Script', sans-serif;
-    font-size: 2rem;
-    color: #005A8D;
+.title-name {
+    color: #2b303a;
+    text-align: center;
+    font-size: 8.5vw;
+    line-height: normal;
+    margin: 0;
 }
 
-.my-name {
-    color: #FF96AD;
+.scroll-content {
+    border-radius: 2em 2em 2em 2em;
+    background-color: #6987c9;
+    color:#eae6fe;
+    text-align: center;
+    font-size: 4.25vw;
+    line-height: normal;
+    overflow: hidden;
+    width: 60vw;
+    white-space: nowrap;
+}
+
+.down-arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4.5vw;
 }
