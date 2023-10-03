@@ -7,12 +7,18 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomeComponent } from './home/home.component';
 import { HomeMenuComponent } from './home-menu/home-menu.component';
+import { AboutComponent } from './about/about.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HomeMenuComponent,
+    AboutComponent,
+    PortfolioComponent,
+    ResumeComponent,
   ],
   imports: [
     BrowserModule,

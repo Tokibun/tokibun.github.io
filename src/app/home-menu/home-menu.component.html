@@ -1,1 +1,12 @@
-<p>home-menu works!</p>
+<div class="home-menu">
+<div class="header">
+    <div class="name">{{firstName}}</div>
+    <img class="star" src="assets/star.svg" (click)="onClick()"/>
+    <div class="name">{{lastName}}</div>
+</div>
+<div class="menu">
+    <a class="menu-item" routerLink="/about">About</a>
+    <a class="menu-item" routerLink="/portfolio">Portfolio</a>
+    <a class="menu-item" routerLink="/resume">Resume</a>
+</div>
+</div>

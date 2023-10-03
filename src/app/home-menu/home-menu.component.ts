@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-menu.component.css']
 })
 export class HomeMenuComponent {
+    firstName = "M I C H E L L E";
+    lastName = "K E E";
 
+    // todo: star onclick
+    onClick(): void {
+
+    }
 }
