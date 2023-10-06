@@ -48,3 +48,16 @@
     line-height: normal;
     margin: 0;
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow{
+    width: 8.33vw;
+    height: 8.33vw;
+    margin: 0.03vw;
+}

@@ -1,0 +1,8 @@
+<div class="spacer"></div>
+<div class="nav">
+    <div [ngClass]="aboutSelected ? 'selected-item' : 'menu-item'" routerLink="/about">ABOUT</div>
+    <div class="menu-item">&#160; · &#160;</div>
+    <div [ngClass]="portfolioSelected ? 'selected-item' : 'menu-item'" routerLink="/portfolio">PORTFOLIO</div>
+    <div class="menu-item">&#160; · &#160;</div>
+    <div [ngClass]="resumeSelected ? 'selected-item' : 'menu-item'" routerLink="/resume">RESUME</div>
+</div>

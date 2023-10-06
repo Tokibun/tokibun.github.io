@@ -8,9 +8,14 @@ import { Component } from '@angular/core';
 export class HomeMenuComponent {
     firstName = "M I C H E L L E";
     lastName = "K E E";
+    aboutHovered = false;
+    portfolioHovered = false;
+    resumeHovered = false;
+
 
     // todo: star onclick
     onClick(): void {
 
     }
+
 }
