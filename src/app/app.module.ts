@@ -11,7 +11,8 @@ import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 import { NavbarComponent } from './navbar/navbar.component';
-
+import { ProjectDetailComponent } from './portfolio/project-detail/project-detail.component';
+import { HttpClientModule } from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,14 +22,16 @@ import { NavbarComponent } from './navbar/navbar.component';
     PortfolioComponent,
     ResumeComponent,
     NavbarComponent,
+    ProjectDetailComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
