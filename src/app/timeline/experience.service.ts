@@ -1,18 +1,18 @@
 import { Injectable } from '@angular/core'
-import { IProject } from './project'
+import { IExperience } from './experience';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, pipe, catchError, throwError } from 'rxjs';
 
 @Injectable({
     providedIn: 'root'
 })
-export class ProjectService {
-    private projectsUrl = 'assets/data/projects.json';
+export class ExperienceService {
+    private experiencesUrl = 'assets/data/experiences.json';
 
     constructor (private http : HttpClient) {}
 
-    getProjects(): Observable<IProject[]> {
-        return this.http.get<IProject[]>(this.projectsUrl).pipe(
+    getProjects(): Observable<IExperience[]> {
+        return this.http.get<IExperience[]>(this.experiencesUrl).pipe(
             catchError(this.handleError));
     }
 

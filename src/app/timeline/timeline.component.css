@@ -73,7 +73,7 @@
 .timeline-content-info {
   background: rgba(105,135,201,0.8);
   padding: 5px 10px;
-  color: rgba(255, 255, 255, 0.7);
+  color: #EAE6FE;
   font-size: min(max(1.11vw, 12px), 24px); 
   font-family: Kodchasan;
   border-radius: 2px;
@@ -88,7 +88,7 @@
   vertical-align: top;
 }
 /* split job title and date into two rows */
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
   .timeline-content-info-title, .timeline-content-info-date {
     display: block;
     width: 100%;
@@ -106,7 +106,7 @@
   border-radius: 2px;
   display: inline-block;
   padding: 2px 10px;
-  color: rgba(255, 255, 255, 0.7);
+  color: #EAE6FE;
   margin: 3px 2px;
   text-align: center;
   flex-grow: 1;
@@ -145,8 +145,8 @@
     color: #2B303A;
     margin-left: 0;
     padding: 1.6em;
-    width: 36%;
-    margin: 0 5%;
+    width: 42vw;
+    margin: 0 2%;
  }
  /* pointy arrow */
   .timeline-content::before {

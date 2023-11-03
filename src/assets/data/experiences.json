@@ -1,0 +1,88 @@
+[
+    {
+        "title": "Specialist - IT Development",
+        "company": "Expertech",
+        "date": "June 2023 - Present",
+        "description": [
+            "Maintained, updated, and troubleshooted Android applications utilized by technicians",
+            "Developed new internal web applications to facilitate electronic form submissions and streamline approval processes"
+        ],
+        "skills": [
+            "Angular",
+            "C#",
+            "ASP.NET",
+            "MSSQL",
+            "IIS Express",
+            "Android",
+            "Java",
+            "Kotlin"
+        ]
+    },
+    {
+        "title": "Teaching Assistant - Computer and Network Security",
+        "company": "University of Toronto",
+        "date": "September 2022 - December 2022",
+        "description": [
+            "Hosted weekly tutorials to facilitated discussions and clarify course content",
+            "Designed a new CTF challenge and provided support for students to complete weekly challenges"
+        ],
+        "skills": [
+            "Python",
+            "Javascript",
+            "Shell",
+            "Docker"
+        ]
+    },
+    {
+        "title": "Software Developer",
+        "company": "Hootsuite",
+        "date": "January 2022 - September 2022",
+        "description": [
+            "Developed major features and fixes in Hootsuite's Android application such as TikTok integration while following CLEAN architecture and other mobile development patterns (ie. MVVM)",
+            "Managed new releases through Google Play Console and monitored performance with Firebase to ensure successful release"
+        ],
+        "skills": [
+            "Java",
+            "Kotlin",
+            "RxJava",
+            "Android",
+            "Google Play Console",
+            "Firebase"
+        ]
+    },
+    {
+        "title": "Software Developer",
+        "company": "CIBC",
+        "date": "May 2021- August 2021",
+        "description": [
+            "Created POC for CIBC's Android and iOS banking application with 3 other developers on the LiveLabs team while following a Test Driven Development approach",
+            "Assisted in conducting a successful in-house pilot"
+        ],
+        "skills": [
+            "Java",
+            "Kotlin",
+            "Android",
+            "SwiftUI",
+            "iOS",
+            "Mockito",
+            "Quick",
+            "Numble"
+        ]
+    },
+    {
+        "title": "Application Developer",
+        "company": "CIBC",
+        "date": "January 2020 - June 2020",
+        "description": [
+            "Automated intake processes on PSBT intake team by independently developing Groovy scripts for Jira Service Desk's Scriptrunner plug-in",
+            "Designed custom workflows best suited for the team by working with a business systems consultant",
+            "Created automatic reporting with MDX functions and eazyBI plug-in"
+        ],
+        "skills": [
+            "Groovy",
+            "MDX",
+            "eazyBI",
+            "Jira Service Desk"
+        ]
+    }
+]
