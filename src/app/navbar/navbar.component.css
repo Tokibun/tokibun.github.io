@@ -23,6 +23,10 @@
     color: #eae6fe;
 }
 
+div.menu-item {
+    cursor: default;
+}
+
 .selected-item{
     color: #2b303a;
     font-weight: 700;

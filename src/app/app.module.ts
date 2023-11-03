@@ -12,7 +12,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectDetailComponent } from './portfolio/project-detail/project-detail.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { TimelineComponent } from './timeline/timeline.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { HttpClientModule } from '@angular/common/http'
     ResumeComponent,
     NavbarComponent,
     ProjectDetailComponent,
+    TimelineComponent,
   ],
   imports: [
     BrowserModule,
