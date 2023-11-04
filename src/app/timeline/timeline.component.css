@@ -11,7 +11,7 @@
   content: '';
   position: absolute;
   top: 0;
-  left: 25px;
+  left: 5vw;
   height: 100%;
   width: 4px;
   background: #6987C9;
@@ -46,12 +46,10 @@
 }
 .timeline-dot {
   position: absolute;
-  top: 15px;
-  left: 19px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #2B303A;
+  top: 1.5vh;
+  left: 2.5vw;
+  width: 6vw;
+  height: 6vw;
 }
 /* timeline dots in the middle */
 @media only screen and (min-width: 700px) {

@@ -10,7 +10,7 @@
     {
         "title": "Pintos",
         "date": "January 2021 - April 2021",
-        "description": "Worked in a team of 3 to implement kernel threads, user programs, virtual memory, and file systems support to the open-source operating system PintOS.",
+        "description": "Implemented kernel threads, user programs, virtual memory, and file systems support to the open-source operating system PintOS.",
         "skills": "C, Docker, GDB",
         "url": "https://github.com/CSCC69/project-turtles",
         "imgSrc": "assets/img/PintOS.png"
@@ -36,7 +36,7 @@
         "date": "October 2019 - December 2019",
         "description": "Social platform for people in Fandoms to connect and to plan events. Worked on both front-end and back-end components in a team of 5.",
         "skills": "React, TypeScript, Spring, MongoDB",
-        "url": "https://drive.google.com/file/d/1IfNKnPHCYKcDTWEM8FATX2nqZGpkT-Kq/view?usp=sharing",
+        "url": "https://github.com/Tokibun/project-null/tree/master",
         "imgSrc": "assets/img/Fanlinc.png"
     }
 ]

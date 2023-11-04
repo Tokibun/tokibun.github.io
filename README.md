@@ -1,6 +1,6 @@
 # personal portfolio website
 
-### [v2](https://github.com/Tokibun/tokibun.github.io/tree/v2): made with Angualr, HTML, CSS
+### [v2](https://github.com/Tokibun/tokibun.github.io/tree/v2): made with Angular, HTML, CSS
 ![](./src/assets/img/v2/v2-home.png)
 
 ### [v1](https://github.com/Tokibun/tokibun.github.io): made with Angular, Bulma, HTML, CSS
