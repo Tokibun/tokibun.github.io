@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Intertwined",
+        "date": "September 2021 - December 2021",
+        "description": "Worked in a large team with art and music students to create a single player puzzle game about a boy and a dog with separation anxiety who has to make their way back home.",
+        "skills": "C#, Unity",
+        "url": "https://meshflakes.itch.io/intertwined",
+        "imgSrc": "assets/img/Intertwined.jpg"
+    },
+    {
+        "title": "Pintos",
+        "date": "January 2021 - April 2021",
+        "description": "Implemented kernel threads, user programs, virtual memory, and file systems support to the open-source operating system PintOS.",
+        "skills": "C, Docker, GDB",
+        "url": "https://github.com/CSCC69/project-turtles",
+        "imgSrc": "assets/img/PintOS.png"
+    },
+    {
+        "title": "tokibun.github.io",
+        "date": "March 2020 - Present",
+        "description": "Personal portfolio website designed and built by me.",
+        "skills": "Angular, HTML, CSS",
+        "url": "https://github.com/Tokibun/tokibun.github.io",
+        "imgSrc": "assets/img/v2/v2-home.png"
+    },
+    {
+        "title": "Doodle Jump",
+        "date": "November 2020 - December 2020",
+        "description": "A 2 player version of the game Doodle Jump made with MIPS Assembly.",
+        "skills": "MIPS Assembly",
+        "url": "https://github.com/Tokibun/DoodleJump",
+        "imgSrc": "assets/img/doodleJump.PNG"
+    },
+    {
+        "title": "Fanlinc",
+        "date": "October 2019 - December 2019",
+        "description": "Social platform for people in Fandoms to connect and to plan events. Worked on both front-end and back-end components in a team of 5.",
+        "skills": "React, TypeScript, Spring, MongoDB",
+        "url": "https://github.com/Tokibun/project-null/tree/master",
+        "imgSrc": "assets/img/Fanlinc.png"
+    }
+]
