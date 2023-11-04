@@ -81,11 +81,15 @@
 .timeline-content-info i {
   margin-right: 5px;
 }
-
 .timeline-content-info-title, .timeline-content-info-date {
-  width: calc(50% - 2px);
   display: inline-block;
   vertical-align: top;
+}
+.timeline-content-info-date{
+  width: 60%;
+}
+.timeline-content-info-title {
+  width: 40%;
 }
 /* split job title and date into two rows */
 @media (max-width: 1080px) {

@@ -15,16 +15,20 @@
     margin: 0;
 }
 
-.scroll-content {
-    border-radius: 2em 2em 2em 2em;
+.scroll-box {
+    border-radius: 4em;
     background-color: #6987c9;
+    display: flex;
+    white-space: nowrap;
+    width: 60vw;
+    overflow: hidden;
+}
+
+.scroll-content {
     color:#eae6fe;
-    text-align: center;
     font-size: 4.25vw;
     line-height: normal;
-    overflow: hidden;
-    width: 60vw;
-    white-space: nowrap;
+    animation: scrollText 40s linear infinite;
 }
 
 .down-arrow {
@@ -32,4 +36,13 @@
     margin-left: auto;
     margin-right: auto;
     width: 4.5vw;
+}
+
+@keyframes scrollText {
+      from {
+        transform: translateX(0%);
+      }
+      to {
+        transform: translateX(-50%);
+      }
 }

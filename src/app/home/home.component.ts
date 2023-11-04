@@ -9,13 +9,13 @@ import { Router } from '@angular/router';
 export class HomeComponent {
   firstName = "M I C H E L L E";
   lastName = "K E E";
-  scrollContent = "developer · gamer · musician";
+  scrollContent = "· developer · gamer · musician ";
 
   constructor(private router: Router) {
 
   }
 
   onClick(): void {
-    this.router.navigate(["/menu"]);
+    this.router.navigate(["/about"]);
   }
 }

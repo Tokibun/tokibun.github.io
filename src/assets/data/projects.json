@@ -18,10 +18,10 @@
     {
         "title": "tokibun.github.io",
         "date": "March 2020 - Present",
-        "description": "Personal portfolio website designed and built by me. This is currently the third iteration ",
+        "description": "Personal portfolio website designed and built by me.",
         "skills": "Angular, HTML, CSS",
         "url": "https://github.com/Tokibun/tokibun.github.io",
-        "imgSrc": "assets/img/rabbit.png"
+        "imgSrc": "assets/img/v2/v2-home.png"
     },
     {
         "title": "Doodle Jump",
