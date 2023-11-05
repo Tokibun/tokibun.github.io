@@ -31,7 +31,7 @@
 .polaroid{
     background-color: RGB(105, 135, 201, 0.5); /* #6987C9, 50% opacity */
     width: 85%;
-    padding: 1vw 1vw 4vw 1vw;
+    padding: 1vw;
     transform: rotate(-6deg);
     max-width: 450px;
     margin:auto;
@@ -43,6 +43,16 @@
 .right{
     transform: rotate(6deg);
     margin: auto;
+}
+.socials{
+    margin: auto;
+    margin-top: max(2vw, 17px);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: min(max(3.33vw, 24px), 60px);
+    color: #4B6090;
 }
 .text-highlight{
     color: #313CD5;
@@ -61,6 +71,7 @@
         margin: 4vw;
     }
     .polaroid{
+        padding: 8px;
         transform: rotate(0deg);
         max-width: 300px;
     }
