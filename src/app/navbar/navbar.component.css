@@ -27,7 +27,7 @@ div.menu-item {
     cursor: default;
 }
 
-.selected-item{
+.active{
     color: #2b303a;
     font-weight: 700;
 }

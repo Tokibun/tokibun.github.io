@@ -14,8 +14,8 @@ export const slideAnimation = trigger('routeAnimations', [
 		query(':enter', [style({ right: '-100%', opacity: 0 })]),
 		query(':leave', animateChild()),
 		group([
-			query(':leave', [animate('1s ease-out', style({ right: '100%', opacity: 0 }))]),
-			query(':enter', [animate('1s ease-out', style({ right: '0%', opacity: 1 }))])
+			query(':leave', [animate('2s ease-out', style({ right: '100%', opacity: 0 }))]),
+			query(':enter', [animate('2s ease-out', style({ right: '0%', opacity: 1 }))])
 		]),
 		query(':enter', animateChild())
 	]),
@@ -32,8 +32,8 @@ export const slideAnimation = trigger('routeAnimations', [
 		query(':enter', [style({ left: '-100%', opacity: 0 })]),
 		query(':leave', animateChild()),
 		group([
-			query(':leave', [animate('1s ease-out', style({ left: '100%', opacity: 0 }))]),
-			query(':enter', [animate('1s ease-out', style({ left: '0%', opacity: 1 }))])
+			query(':leave', [animate('2s ease-out', style({ left: '100%', opacity: 0 }))]),
+			query(':enter', [animate('2s ease-out', style({ left: '0%', opacity: 1 }))])
 		]),
 		query(':enter', animateChild())
 	])

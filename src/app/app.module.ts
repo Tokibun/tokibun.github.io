@@ -13,7 +13,8 @@ import { ResumeComponent } from './resume/resume.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectDetailComponent } from './portfolio/project-detail/project-detail.component';
 import { HttpClientModule } from '@angular/common/http';
-import { TimelineComponent } from './timeline/timeline.component'
+import { TimelineComponent } from './timeline/timeline.component';
+import { ContentPageComponent } from './content-page/content-page.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +26,7 @@ import { TimelineComponent } from './timeline/timeline.component'
     NavbarComponent,
     ProjectDetailComponent,
     TimelineComponent,
+    ContentPageComponent,
   ],
   imports: [
     BrowserModule,

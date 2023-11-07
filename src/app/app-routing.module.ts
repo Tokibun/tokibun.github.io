@@ -5,14 +5,17 @@ import { HomeMenuComponent } from './home-menu/home-menu.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
+import { ContentPageComponent } from './content-page/content-page.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: "full" },
   { path: 'home', component: HomeComponent, data: {animationState: 'Home'} },
   { path: 'menu', component: HomeMenuComponent },
-  { path: 'about', component: AboutComponent, data: {animationState: 'About'}},
-  { path: 'portfolio', component: PortfolioComponent, data: {animationState: 'Portfolio'}},
-  { path: 'resume', component: ResumeComponent, data: {animationState: 'Resume'}},
-  { path: '', redirectTo: 'home', pathMatch: "full" },
+  { path: '', component: ContentPageComponent, children: [
+    { path: 'about', component: AboutComponent, data: {animationState: 'About'}},
+    { path: 'portfolio', component: PortfolioComponent, data: {animationState: 'Portfolio'}},
+    { path: 'resume', component: ResumeComponent, data: {animationState: 'Resume'}},
+  ]},
   { path: '**', redirectTo: 'home', pathMatch: "full" },
 ];
 
