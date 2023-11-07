@@ -7,11 +7,11 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: 'home', component: HomeComponent, data: {animationState: 'Home'} },
   { path: 'menu', component: HomeMenuComponent },
-  { path: 'about', component: AboutComponent},
-  { path: 'portfolio', component: PortfolioComponent},
-  { path: 'resume', component: ResumeComponent},
+  { path: 'about', component: AboutComponent, data: {animationState: 'About'}},
+  { path: 'portfolio', component: PortfolioComponent, data: {animationState: 'Portfolio'}},
+  { path: 'resume', component: ResumeComponent, data: {animationState: 'Resume'}},
   { path: '', redirectTo: 'home', pathMatch: "full" },
   { path: '**', redirectTo: 'home', pathMatch: "full" },
 ];

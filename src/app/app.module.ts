@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomeComponent } from './home/home.component';
 import { HomeMenuComponent } from './home-menu/home-menu.component';
@@ -32,6 +32,7 @@ import { TimelineComponent } from './timeline/timeline.component'
     NoopAnimationsModule,
     FontAwesomeModule,
     HttpClientModule,
+    BrowserAnimationsModule 
   ],
   providers: [HttpClientModule],
   bootstrap: [AppComponent]
