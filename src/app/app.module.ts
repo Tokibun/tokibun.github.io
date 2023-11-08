@@ -1,36 +1,42 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {FormsModule} from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { AboutComponent } from './about/about.component';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import {ProjectDetailComponent} from "./projects/project-detail.component";
-
+import { HomeComponent } from './pages/home/home.component';
+import { HomeMenuComponent } from './pages/home-menu/home-menu.component';
+import { AboutComponent } from './pages/about/about.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { ResumeComponent } from './pages/resume/resume.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { ProjectDetailComponent } from './pages/portfolio/components/project-detail/project-detail.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TimelineComponent } from './pages/resume/components/timeline/timeline.component';
+import { ContentPageComponent } from './pages/content-page/content-page.component'
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
     HomeComponent,
-    ProjectsComponent,
+    HomeMenuComponent,
     AboutComponent,
-    ProjectDetailComponent
+    PortfolioComponent,
+    ResumeComponent,
+    NavbarComponent,
+    ProjectDetailComponent,
+    TimelineComponent,
+    ContentPageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
     NoopAnimationsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule,
+    BrowserAnimationsModule 
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

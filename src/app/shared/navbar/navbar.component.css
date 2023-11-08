@@ -1,0 +1,33 @@
+
+.spacer{
+    padding-top: 2vh;
+}
+
+.nav{
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 2em 2em 2em 2em;
+    background-color: #6987c9;
+    font-size: 4.16vw;
+    line-height: normal;
+    font-family: Kodchasan;
+    font-weight: 400;
+    width: 75vw;
+    padding: 0.5vh 0 0.5vh 0;
+}
+
+.menu-item{
+    color: #eae6fe;
+}
+
+div.menu-item {
+    cursor: default;
+}
+
+.active{
+    color: #2b303a;
+    font-weight: 700;
+}

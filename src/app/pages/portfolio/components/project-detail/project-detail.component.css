@@ -1,0 +1,51 @@
+.project-card{
+    display: flex;
+    flex-direction: row;
+    font-family: Kodchasan;
+    color: #2b303a;
+    background-color: inherit;
+}
+
+.tiny-text{
+    font-size: min(max(1.11vw, 12px), 24px); 
+}
+
+.small-text{
+    font-size: min(max(1.67vw, 14px), 32px); 
+}
+.large-text{
+    font-size: min(max(2.22vw, 16px), 40px);
+}
+
+.col-1{
+    flex: 1;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 34.7vw;
+    max-height: 29.3vh;
+}
+
+.dotted-line{
+    border: none;
+    border-top: 0.3vw dotted #6987C9;
+}
+
+@media only screen and (max-width: 700px){
+    .project-card {
+        flex-direction: column;
+    }
+    .img-container{
+        order: -1;
+    }
+    img{
+        max-width: 75vw;
+        max-height: 25vh;
+    }
+}
