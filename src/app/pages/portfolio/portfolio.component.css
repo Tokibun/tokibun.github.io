@@ -4,9 +4,3 @@
     width: 75vw;
     margin: auto;
 }
-
-@media only screen and (max-width: 700px){
-    br {
-        display: none;
-    }
-}
