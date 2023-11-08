@@ -1,24 +1,24 @@
 <div class="home-menu">
 <div class="header">
     <div class="name">{{firstName}}</div>
-    <img class="star" src="assets/star.svg" (click)="onClick()"/>
+    <img class="star" src="assets/svg/star.svg" (click)="onClick()"/>
     <div class="name">{{lastName}}</div>
 </div>
 <div class="menu">
     <div class="row" (mouseover)="aboutHovered=true" (mouseout)="aboutHovered=false">
-        <img [hidden]="!aboutHovered" class="arrow" src="assets/arrow-point-right.svg"/>
+        <img [hidden]="!aboutHovered" class="arrow" src="assets/svg/arrow-point-right.svg"/>
         <a class="menu-item" routerLink="/about">ABOUT</a>
-        <img [hidden]="!aboutHovered" class="arrow" src="assets/arrow-point-left.svg"/>
+        <img [hidden]="!aboutHovered" class="arrow" src="assets/svg/arrow-point-left.svg"/>
     </div>
     <div class="row" (mouseover)="portfolioHovered=true" (mouseout)="portfolioHovered=false">
-        <img [hidden]="!portfolioHovered" class="arrow" src="assets/arrow-point-right.svg"/>
+        <img [hidden]="!portfolioHovered" class="arrow" src="assets/svg/arrow-point-right.svg"/>
         <a class="menu-item" routerLink="/portfolio">PORTFOLIO</a>
-        <img [hidden]="!portfolioHovered" class="arrow" src="assets/arrow-point-left.svg"/>
+        <img [hidden]="!portfolioHovered" class="arrow" src="assets/svg/arrow-point-left.svg"/>
     </div>
     <div class="row" (mouseover)="resumeHovered=true" (mouseout)="resumeHovered=false">
-        <img [hidden]="!resumeHovered" class="arrow" src="assets/arrow-point-right.svg"/>
+        <img [hidden]="!resumeHovered" class="arrow" src="assets/svg/arrow-point-right.svg"/>
         <a class="menu-item" routerLink="/resume">RESUME</a>
-        <img [hidden]="!resumeHovered" class="arrow" src="assets/arrow-point-left.svg"/>
+        <img [hidden]="!resumeHovered" class="arrow" src="assets/svg/arrow-point-left.svg"/>
     </div>
 </div>
 </div>

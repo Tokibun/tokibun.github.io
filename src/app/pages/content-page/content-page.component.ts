@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { slideAnimation } from '../animations';
+import { slideAnimation } from '../../animations';
 
 @Component({
   selector: 'app-content-page',

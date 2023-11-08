@@ -1,7 +1,7 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
-import { IExperience } from './experience';
+import { IExperience } from '../../models/experience';
 import { Subscription } from 'rxjs';
-import { ExperienceService } from './experience.service';
+import { ExperienceService } from '../../services/experience.service';
 
 @Component({
   selector: 'app-timeline',

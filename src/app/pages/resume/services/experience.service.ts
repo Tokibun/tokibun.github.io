@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core'
-import { IExperience } from './experience';
+import { IExperience } from '../models/experience';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, pipe, catchError, throwError } from 'rxjs';
 

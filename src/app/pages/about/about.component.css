@@ -44,7 +44,7 @@
     transform: rotate(6deg);
     margin: auto;
 }
-.socials{
+.socials-group{
     margin: auto;
     margin-top: max(2vw, 17px);
     width: 50%;
@@ -52,6 +52,11 @@
     flex-direction: row;
     justify-content: space-between;
     font-size: min(max(3.33vw, 24px), 60px);
+}
+.socials{
+    color: #6987c9;
+}
+.socials:hover{
     color: #4B6090;
 }
 .text-highlight{

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core'
-import { IProject } from './project'
+import { IProject } from '../models/project'
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, pipe, catchError, throwError } from 'rxjs';
 
