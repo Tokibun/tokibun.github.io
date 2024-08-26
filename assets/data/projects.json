@@ -8,7 +8,7 @@
         "imgSrc": "assets/img/Intertwined.jpg"
     },
     {
-        "title": "Pintos",
+        "title": "PintOS",
         "date": "January 2021 - April 2021",
         "description": "Implemented kernel threads, user programs, virtual memory, and file systems support to the open-source operating system PintOS.",
         "skills": "C, Docker, GDB",
