@@ -7,14 +7,14 @@ import { ResumeComponent } from './pages/resume/resume.component';
 import { ContentPageComponent } from './pages/content-page/content-page.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: "full" },
+  { path: '', redirectTo: 'about', pathMatch: "full" },
   { path: 'home', component: HomeComponent, data: {animationState: 'Home'} },
   { path: '', component: ContentPageComponent, children: [
     { path: 'about', component: AboutComponent, data: {animationState: 'About'}},
     { path: 'portfolio', component: PortfolioComponent, data: {animationState: 'Portfolio'}},
     { path: 'resume', component: ResumeComponent, data: {animationState: 'Resume'}},
   ]},
-  { path: '**', redirectTo: 'home', pathMatch: "full" },
+  { path: '**', redirectTo: 'about', pathMatch: "full" },
 ];
 
 @NgModule({
